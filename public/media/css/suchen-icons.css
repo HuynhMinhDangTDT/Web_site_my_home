@@ -1,0 +1,412 @@
+@font-face {
+    font-family: 'suchen';
+    src: url(../fonts/suchen.eot?rxk809);
+    src: url('../fonts/suchen.eot?rxk809#iefix') format('embedded-opentype'), url(../fonts/suchen.ttf?rxk809) format('truetype'), url(../fonts/suchen.woff?rxk809) format('woff'), url('../fonts/suchen.svg?rxk809#suchen') format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+[class^="suchen-"],
+[class*=" suchen-"] {
+    font-family: 'suchen' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.suchen-sun:before {
+    content: "\e900"
+}
+
+.suchen-moon:before {
+    content: "\e901"
+}
+
+.suchen-cloud:before {
+    content: "\e902"
+}
+
+.suchen-cloud-sun:before {
+    content: "\e903"
+}
+
+.suchen-cloud-moon:before {
+    content: "\e904"
+}
+
+.suchen-drizzle:before {
+    content: "\e905"
+}
+
+.suchen-drizzle-sun:before {
+    content: "\e906"
+}
+
+.suchen-drizzle-moon:before {
+    content: "\e907"
+}
+
+.suchen-drizzle-alt:before {
+    content: "\e908"
+}
+
+.suchen-drizzle-alt-sun:before {
+    content: "\e909"
+}
+
+.suchen-drizzle-alt-moon:before {
+    content: "\e90a"
+}
+
+.suchen-rain:before {
+    content: "\e90b"
+}
+
+.suchen-rain-sun:before {
+    content: "\e90c"
+}
+
+.suchen-rain-moon:before {
+    content: "\e90d"
+}
+
+.suchen-rain-alt:before {
+    content: "\e90e"
+}
+
+.suchen-rain-alt-sun:before {
+    content: "\e90f"
+}
+
+.suchen-rain-alt-moon:before {
+    content: "\e910"
+}
+
+.suchen-lightning:before {
+    content: "\e911"
+}
+
+.suchen-lightning-sun:before {
+    content: "\e912"
+}
+
+.suchen-lightning-moon:before {
+    content: "\e913"
+}
+
+.suchen-lightning-rain:before {
+    content: "\e914"
+}
+
+.suchen-lightning-rain-sun:before {
+    content: "\e915"
+}
+
+.suchen-lightning-rain-moon:before {
+    content: "\e916"
+}
+
+.suchen-hail:before {
+    content: "\e917"
+}
+
+.suchen-hail-sun:before {
+    content: "\e918"
+}
+
+.suchen-hail-moon:before {
+    content: "\e919"
+}
+
+.suchen-snow:before {
+    content: "\e91a"
+}
+
+.suchen-snow-sun:before {
+    content: "\e91b"
+}
+
+.suchen-snow-moon:before {
+    content: "\e91c"
+}
+
+.suchen-snow-alt:before {
+    content: "\e91d"
+}
+
+.suchen-snow-alt-sun:before {
+    content: "\e91e"
+}
+
+.suchen-snow-alt-moon:before {
+    content: "\e91f"
+}
+
+.suchen-fog:before {
+    content: "\e920"
+}
+
+.suchen-fog-sun:before {
+    content: "\e921"
+}
+
+.suchen-fog-moon:before {
+    content: "\e922"
+}
+
+.suchen-cloud-wind:before {
+    content: "\e923"
+}
+
+.suchen-cloud-wind-sun:before {
+    content: "\e924"
+}
+
+.suchen-cloud-wind-moon:before {
+    content: "\e925"
+}
+
+.suchen-wind-sun:before {
+    content: "\e926"
+}
+
+.suchen-wind-moon:before {
+    content: "\e927"
+}
+
+.suchen-wind:before {
+    content: "\e928"
+}
+
+.suchen-sunrise:before {
+    content: "\e929"
+}
+
+.suchen-sunset:before {
+    content: "\e92a"
+}
+
+.suchen-upload:before {
+    content: "\e92b"
+}
+
+.suchen-download:before {
+    content: "\e92c"
+}
+
+.suchen-hurricane:before {
+    content: "\e92d"
+}
+
+.suchen-light:before {
+    content: "\e92e"
+}
+
+.suchen-umbrella:before {
+    content: "\e92f"
+}
+
+.suchen-thermometer-0:before {
+    content: "\e930"
+}
+
+.suchen-thermometer-1-4:before {
+    content: "\e931"
+}
+
+.suchen-thermometer-1-2:before {
+    content: "\e932"
+}
+
+.suchen-thermometer-3-4:before {
+    content: "\e933"
+}
+
+.suchen-thermometer-full:before {
+    content: "\e934"
+}
+
+.suchen-degree-celcius:before {
+    content: "\e935"
+}
+
+.suchen-degree-farenheit:before {
+    content: "\e936"
+}
+
+.suchen-compass:before {
+    content: "\e937"
+}
+
+.suchen-absinthe:before {
+    content: "\e938"
+}
+
+.suchen-barber:before {
+    content: "\e939"
+}
+
+.suchen-beer:before {
+    content: "\e93a"
+}
+
+.suchen-beer-bottle:before {
+    content: "\e93b"
+}
+
+.suchen-bonfire:before {
+    content: "\e93c"
+}
+
+.suchen-brandy:before {
+    content: "\e93d"
+}
+
+.suchen-carousel:before {
+    content: "\e93e"
+}
+
+.suchen-coffee:before {
+    content: "\e93f"
+}
+
+.suchen-coffee-cup:before {
+    content: "\e940"
+}
+
+.suchen-cutlery:before {
+    content: "\e941"
+}
+
+.suchen-destination:before {
+    content: "\e942"
+}
+
+.suchen-facial:before {
+    content: "\e943"
+}
+
+.suchen-field:before {
+    content: "\e944"
+}
+
+.suchen-gin:before {
+    content: "\e945"
+}
+
+.suchen-hotel-signal:before {
+    content: "\e946"
+}
+
+.suchen-house:before {
+    content: "\e947"
+}
+
+.suchen-jar-of-beer:before {
+    content: "\e948"
+}
+
+.suchen-margarita:before {
+    content: "\e949"
+}
+
+.suchen-mic-star:before {
+    content: "\e94a"
+}
+
+.suchen-museum:before {
+    content: "\e94b"
+}
+
+.suchen-music:before {
+    content: "\e94c"
+}
+
+.suchen-paint-palette:before {
+    content: "\e94d"
+}
+
+.suchen-picnic-table:before {
+    content: "\e94e"
+}
+
+.suchen-popcorn:before {
+    content: "\e94f"
+}
+
+.suchen-reception-bell:before {
+    content: "\e950"
+}
+
+.suchen-room-key:before {
+    content: "\e951"
+}
+
+.suchen-serving-dish:before {
+    content: "\e952"
+}
+
+.suchen-settings:before {
+    content: "\e953"
+}
+
+.suchen-shop:before {
+    content: "\e954"
+}
+
+.suchen-spa:before {
+    content: "\e955"
+}
+
+.suchen-tent:before {
+    content: "\e956"
+}
+
+.suchen-travel:before {
+    content: "\e957"
+}
+
+.suchen-weightlifting:before {
+    content: "\e958"
+}
+
+.suchen-treble-clef:before {
+    content: "\e959"
+}
+
+.suchen-play:before {
+    content: "\e95a"
+}
+
+.suchen-pin-star:before {
+    content: "\e95b"
+}
+
+.suchen-list:before {
+    content: "\e95c"
+}
+
+.suchen-map:before {
+    content: "\e95d"
+}
+
+.suchen-clocking:before {
+    content: "\e95e"
+}
+
+.suchen-note-list:before {
+    content: "\e95f"
+}
+
+.suchen-location:before {
+    content: "\e960"
+}
+
+.suchen-sad:before {
+    content: "\e961"
+}

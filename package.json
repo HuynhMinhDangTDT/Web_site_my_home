@@ -1,0 +1,20 @@
+{
+  "name": "myhomedesign.vn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "document": "^0.4.7",
+    "express": "^4.19.2",
+    "jQuery": "^1.7.4",
+    "path": "^0.12.7",
+    "window": "^4.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

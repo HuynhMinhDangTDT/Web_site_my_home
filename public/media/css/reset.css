@@ -1,0 +1,333 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+:focus {
+    outline: none !important
+}
+
+a {
+    -webkit-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    transition: color .3s ease;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none !important
+}
+
+p {
+    margin-bottom: 5px
+}
+
+::-webkit-scrollbar {
+    width: 5px
+}
+
+::-webkit-scrollbar-track {
+    background: #eee
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ddd
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666
+}
+
+.rutgon {
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+    display: -webkit-box
+}
+
+.r-1 {
+    -webkit-line-clamp: 1
+}
+
+.r-2 {
+    -webkit-line-clamp: 2
+}
+
+.r-3 {
+    -webkit-line-clamp: 3
+}
+
+.r-4 {
+    -webkit-line-clamp: 4
+}
+
+.owl-pagination {
+    height: 0
+}
+
+.owl-theme .owl-controls .owl-page span {
+    display: none
+}
+
+.owl-theme .owl-controls {
+    margin: 0;
+    height: 0
+}
+
+.owl-prev,
+.owl-next {
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%
+}
+
+.owl-bg-bl .owl-prev,
+.owl-bg-bl .owl-next {
+    -webkit-filter: brightness(1000);
+    filter: brightness(1000);
+}
+
+.owl-prev {
+    background-position: left top;
+    background: url(../../img/l.png) no-repeat left;
+    background-size: auto 100%;
+    left: -30px
+}
+
+.owl-next {
+    background-position: right top;
+    background: url(../../img/r.png) no-repeat right;
+    background-size: auto 100%;
+    right: -30px
+}
+
+.owl-buttons {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out
+}
+
+.owl-carousel:hover .owl-buttons {
+    visibility: visible;
+    opacity: 1
+}
+
+.fs-11 {
+    font-size: 11px
+}
+
+.fs-12 {
+    font-size: 12px
+}
+
+.fs-13 {
+    font-size: 13px
+}
+
+.fs-14 {
+    font-size: 14px
+}
+
+.fs-15 {
+    font-size: 15px
+}
+
+.fs-16 {
+    font-size: 16px
+}
+
+.fs-18 {
+    font-size: 18px
+}
+
+.fs-20 {
+    font-size: 20px
+}
+
+.fs-25 {
+    font-size: 25px
+}
+
+.fs-30 {
+    font-size: 35px
+}
+
+.fw-400 {
+    font-weight: 400
+}
+
+.fw-500 {
+    font-weight: 500
+}
+
+.fw-600 {
+    font-weight: 600
+}
+
+.fw-700 {
+    font-weight: 700
+}
+
+.fw-800 {
+    font-weight: 800
+}
+
+.fw-900 {
+    font-weight: 900
+}
+
+.text-bl {
+    color: #000
+}
+
+.text-wh {
+    color: #fff
+}
+
+.text-gra {
+    color: #ddd
+}
+
+.text-gra-l {
+    color: #ccc
+}
+
+.text-gra-d {
+    color: #999
+}
+
+.bg-or {
+    background: rgb(251, 175, 27);
+    background: -webkit-gradient(linear, left top, right top, color-stop(00%, rgba(251, 175, 27, 1)), to(rgba(249, 158, 29, 1)));
+    background: -o-linear-gradient(left, rgba(251, 175, 27, 1) 00%, rgba(249, 158, 29, 1) 100%);
+    background: linear-gradient(90deg, rgba(251, 175, 27, 1) 00%, rgba(249, 158, 29, 1) 100%);
+}
+
+.bg-blu {
+    background: rgb(35, 176, 230);
+    background: -webkit-gradient(linear, left top, right top, color-stop(00%, rgba(35, 176, 230, 1)), to(rgba(0, 97, 160, 1)));
+    background: -o-linear-gradient(left, rgba(35, 176, 230, 1) 00%, rgba(0, 97, 160, 1) 100%);
+    background: linear-gradient(90deg, rgba(35, 176, 230, 1) 00%, rgba(0, 97, 160, 1) 100%);
+}
+
+.bg-wh {
+    background: #fff
+}
+
+.bg-bl {
+    background: #272727
+}
+
+.bg-black {
+    background: #000
+}
+
+.bg-none {
+    background: none !important
+}
+
+.zoom-img,
+.transi {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.zoom-img:hover,
+.item-tt:hover .zoom-img,
+.item-dv:hover .zoom-img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05)
+}
+
+/* Underline From Center */
+
+.hv-uc {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hv-uc.bl:before {
+    background: #000;
+}
+
+.hv-uc:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #fff;
+    height: 1px;
+    -webkit-transition-property: left, right;
+    -o-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hv-uc:hover:before,
+.hv-uc:focus:before,
+.hv-uc:active:before {
+    left: 0;
+    right: 0;
+}
+
+/* Icon Forward */
+
+.hv-ar {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+}
+
+.hv-ar .hvr-icon {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: transform;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hv-ar:hover .hvr-icon,
+.hv-ar:focus .hvr-icon,
+.hv-ar:active .hvr-icon {
+    -webkit-transform: translateX(4px);
+    -ms-transform: translateX(4px);
+    transform: translateX(4px);
+}
