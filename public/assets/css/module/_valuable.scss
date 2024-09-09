@@ -1,0 +1,99 @@
+$cl-default: #5f7478;
+$cl-white: #fff;
+$cl-black: #000;
+$cl-black1: #111;
+$cl-black2: #1d1d1d;
+$cl-blue: #0055a8;
+$cl-green: #20d0c2;
+$cl-yellow: #ebcf7e;
+$cl-brown: #2f1108;
+$cl-red: #961519;
+$cl-red1: #A70F17;
+$cl-gray: #D0D0D0;
+$cl-gray-1: #F5F5F5;
+$cl-gray-2: #666;
+$cl-gray-3: #333;
+$cl-gray-4: #222;
+$cl-gray-5: #D0D0D0;
+$cl-ft: #999;
+$cl-border: #333;
+
+$fw-2: 200;
+$fw-3: 300;
+$fw-4: 500;
+$fw-5: 600;
+
+
+@function calc-em($target-px, $context: 18) {
+    @return ($target-px / $context) * 1em;
+}
+
+@mixin box-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include transform(translate(-50%, -50%));
+}
+
+@mixin box-full{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@mixin box-ratio{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    &:before{
+        content: '';
+        float: left;
+        padding-top: 100%;
+    }
+}
+
+@mixin wrap-small{
+    width: 100%;
+    max-width: 986px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    @include respond-to(768px){
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@mixin line-wrap{
+    position: relative;
+    &:before{
+        content: "";
+        width: calc(100% - 100px);
+        height: 0px;
+        border-bottom: 1px solid $cl-gray-3;
+        position: absolute;
+        bottom: 0;
+        left: 50px;
+    }
+
+    @include respond-to(1024px){
+        &:before{
+            width: calc(100% - 40px);
+            left: 20px;
+        }
+    }
+}
+
+@mixin box-shadow($content: 0px 5px 5px -2px rgba(0,0,0,0.3)){
+    -webkit-box-shadow: $content;
+    -moz-box-shadow: $content;
+    box-shadow: $content;
+}
